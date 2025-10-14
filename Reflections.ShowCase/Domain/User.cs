@@ -19,6 +19,7 @@ public class User
         Age = age;
     }
 
+    [Fancy]
     public void Greet() => Console.WriteLine($"Hello, {Name}!");
     
     [ObsoleteMethod("Use Greet() instead")]
